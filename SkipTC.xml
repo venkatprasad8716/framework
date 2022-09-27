@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_SkipTc">
+  <test thread-count="5" name="Test_SkipTC">
+    <classes>
+      <class name="com.aspire.framework.FailedXml_SkipTC.SkipTestCases">
+       <methods>
+          <exclude name="m2"/>
+          <exclude name="m3"/>
+       </methods>
+      </class>       
+    </classes>
+  </test> <!-- Test_SkipTC -->
+</suite> <!-- Suite_SkipTc -->

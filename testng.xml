@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FailedxmlSuite">
+  <test thread-count="5" name="FailedxmlTest">
+    <classes>
+      <class name="com.aspire.framework.FailedXml_SkipTC.SkipTestCases"/>
+      <class name="com.aspire.framework.FailedXml_SkipTC.FailedXmlFileCreate"/>
+     <class name="com.aspire.framework.TestNG_Assert.Soft_Assert"/>
+    </classes>
+  </test> <!-- FailedxmlTest -->
+</suite> <!-- FailedxmlSuite -->
